@@ -17,6 +17,7 @@
 		4E99FCA823A7C77D00DA053B /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCA723A7C77D00DA053B /* HomeRouter.swift */; };
 		4E99FCAA23A7C7C700DA053B /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCA923A7C7C700DA053B /* HomeInteractor.swift */; };
 		4E99FCAC23A7C86600DA053B /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCAB23A7C86600DA053B /* HomeModel.swift */; };
+		4E99FCAF23A7C9B700DA053B /* HomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCAE23A7C9B700DA053B /* HomeModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4E99FCA723A7C77D00DA053B /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		4E99FCA923A7C7C700DA053B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		4E99FCAB23A7C86600DA053B /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		4E99FCAE23A7C9B700DA053B /* HomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4E99FCA523A7C71000DA053B /* HomePresenter.swift */,
 				4E99FCA723A7C77D00DA053B /* HomeRouter.swift */,
 				4E99FCA923A7C7C700DA053B /* HomeInteractor.swift */,
+				4E99FCAE23A7C9B700DA053B /* HomeModuleBuilder.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E99FCAF23A7C9B700DA053B /* HomeModuleBuilder.swift in Sources */,
 				4E99FC9523A7C61500DA053B /* HomeViewController.swift in Sources */,
 				4E99FC9123A7C61500DA053B /* AppDelegate.swift in Sources */,
 				4E99FC9323A7C61500DA053B /* SceneDelegate.swift in Sources */,
