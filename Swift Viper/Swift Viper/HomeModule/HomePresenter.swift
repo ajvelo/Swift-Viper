@@ -10,6 +10,7 @@ protocol HomePresentation {
 
 }
 
+// Delegates the work between the various components
 class HomePresenter {
     
 }

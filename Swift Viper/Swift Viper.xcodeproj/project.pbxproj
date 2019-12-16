@@ -16,6 +16,7 @@
 		4E99FCA623A7C71000DA053B /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCA523A7C71000DA053B /* HomePresenter.swift */; };
 		4E99FCA823A7C77D00DA053B /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCA723A7C77D00DA053B /* HomeRouter.swift */; };
 		4E99FCAA23A7C7C700DA053B /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCA923A7C7C700DA053B /* HomeInteractor.swift */; };
+		4E99FCAC23A7C86600DA053B /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FCAB23A7C86600DA053B /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4E99FCA523A7C71000DA053B /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		4E99FCA723A7C77D00DA053B /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		4E99FCA923A7C7C700DA053B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		4E99FCAB23A7C86600DA053B /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		4E99FC8F23A7C61500DA053B /* Swift Viper */ = {
 			isa = PBXGroup;
 			children = (
+				4E99FCAD23A7C8B000DA053B /* Entity */,
 				4E99FCA423A7C66500DA053B /* HomeModule */,
 				4E99FC9023A7C61500DA053B /* AppDelegate.swift */,
 				4E99FC9223A7C61500DA053B /* SceneDelegate.swift */,
@@ -82,6 +85,14 @@
 				4E99FCA923A7C7C700DA053B /* HomeInteractor.swift */,
 			);
 			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		4E99FCAD23A7C8B000DA053B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				4E99FCAB23A7C86600DA053B /* HomeModel.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 				4E99FC9523A7C61500DA053B /* HomeViewController.swift in Sources */,
 				4E99FC9123A7C61500DA053B /* AppDelegate.swift in Sources */,
 				4E99FC9323A7C61500DA053B /* SceneDelegate.swift in Sources */,
+				4E99FCAC23A7C86600DA053B /* HomeModel.swift in Sources */,
 				4E99FCAA23A7C7C700DA053B /* HomeInteractor.swift in Sources */,
 				4E99FCA623A7C71000DA053B /* HomePresenter.swift in Sources */,
 				4E99FCA823A7C77D00DA053B /* HomeRouter.swift in Sources */,

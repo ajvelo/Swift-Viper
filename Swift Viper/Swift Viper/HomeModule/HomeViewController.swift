@@ -12,6 +12,7 @@ protocol HomeView {
     
 }
 
+// View
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {

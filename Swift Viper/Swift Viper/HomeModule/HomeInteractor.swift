@@ -10,6 +10,7 @@ protocol HomeUseCase {
     
 }
 
+// Handles business logic
 class HomeInteractor {
     
 }
