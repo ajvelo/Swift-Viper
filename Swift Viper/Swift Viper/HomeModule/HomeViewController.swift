@@ -8,8 +8,8 @@
 
 import UIKit
 
-protocol HomeView {
-    
+protocol HomeView: class {
+    func updateTitle(title: String)
 }
 
 // View
@@ -21,11 +21,14 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.presenter.viewDidLoad()
     }
 }
 
 extension HomeViewController: HomeView {
     
+    func updateTitle(title: String) {
+        self.helloLabel.text = title
+    }
 }
 

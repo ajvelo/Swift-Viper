@@ -7,7 +7,7 @@
 //
 
 protocol HomeUseCase {
-    
+    func getModel() -> HomeModel
 }
 
 // Handles business logic
@@ -17,4 +17,7 @@ class HomeInteractor {
 
 extension HomeInteractor: HomeUseCase {
     
+    func getModel() -> HomeModel {
+        return HomeModel(title: "Hello VIPER!")
+    }
 }

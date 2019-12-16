@@ -11,10 +11,12 @@ import UIKit
 // Create the dependencies between the different components
 class HomeModuleBuilder {
     
-    func build() -> UIViewController {
+    static func build() -> UIViewController {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(identifier: "HomeViewController") as! HomeViewController
-        let presenter = HomePresenter()
+        let interactor = HomeInteractor()
+        let router = HomeRouter(viewController: viewController)
+        let presenter = HomePresenter(view: viewController, interactor: interactor, router: router)
         viewController.presenter = presenter
         return viewController
     }

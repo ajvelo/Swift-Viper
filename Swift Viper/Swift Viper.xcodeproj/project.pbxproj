@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4E99FC9123A7C61500DA053B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FC9023A7C61500DA053B /* AppDelegate.swift */; };
-		4E99FC9323A7C61500DA053B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FC9223A7C61500DA053B /* SceneDelegate.swift */; };
 		4E99FC9523A7C61500DA053B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99FC9423A7C61500DA053B /* HomeViewController.swift */; };
 		4E99FC9823A7C61500DA053B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E99FC9623A7C61500DA053B /* Main.storyboard */; };
 		4E99FC9A23A7C61900DA053B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E99FC9923A7C61900DA053B /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		4E99FC8D23A7C61500DA053B /* Swift Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E99FC9023A7C61500DA053B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E99FC9223A7C61500DA053B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4E99FC9423A7C61500DA053B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4E99FC9723A7C61500DA053B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E99FC9923A7C61900DA053B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				4E99FCAD23A7C8B000DA053B /* Entity */,
 				4E99FCA423A7C66500DA053B /* HomeModule */,
 				4E99FC9023A7C61500DA053B /* AppDelegate.swift */,
-				4E99FC9223A7C61500DA053B /* SceneDelegate.swift */,
 				4E99FC9623A7C61500DA053B /* Main.storyboard */,
 				4E99FC9923A7C61900DA053B /* Assets.xcassets */,
 				4E99FC9B23A7C61900DA053B /* LaunchScreen.storyboard */,
@@ -172,7 +169,6 @@
 				4E99FCAF23A7C9B700DA053B /* HomeModuleBuilder.swift in Sources */,
 				4E99FC9523A7C61500DA053B /* HomeViewController.swift in Sources */,
 				4E99FC9123A7C61500DA053B /* AppDelegate.swift in Sources */,
-				4E99FC9323A7C61500DA053B /* SceneDelegate.swift in Sources */,
 				4E99FCAC23A7C86600DA053B /* HomeModel.swift in Sources */,
 				4E99FCAA23A7C7C700DA053B /* HomeInteractor.swift in Sources */,
 				4E99FCA623A7C71000DA053B /* HomePresenter.swift in Sources */,
