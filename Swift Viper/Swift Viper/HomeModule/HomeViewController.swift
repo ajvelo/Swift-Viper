@@ -15,6 +15,10 @@ protocol HomeView {
 // View
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var helloLabel: UILabel!
+    
+    var presenter: HomePresentation!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
