@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol HomeView {
+    
+}
+
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+}
 
-
+extension HomeViewController: HomeView {
+    
 }
 
